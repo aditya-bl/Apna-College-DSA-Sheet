@@ -1,0 +1,10 @@
+Code:
+        int min=INT_MAX, max=INT_MIN;
+        for(int i=0;i<N;i++){
+            if(A[i]<min)
+                min=A[i];
+            if(A[i]>max)
+                max=A[i];
+        }
+        long long ans=min+max;
+        return ans;
